@@ -5,7 +5,7 @@ NUM=$1
 
 # -gt, -lt, -eq, -ge, -le
 
-if [ $NUM -gt 10]
+if [ $NUM -gt 10 ]
 then 
     echo "Given number is greater than 10"
 else
