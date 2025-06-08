@@ -8,7 +8,7 @@ echo "entere username is :: $USERNAME"
 
 echo "enter your Password :: "
 
-read PASSWORD
+read -s PASSWORD
 
 echo "entered password :: $PASSWORD"
 
