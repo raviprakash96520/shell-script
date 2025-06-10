@@ -66,3 +66,12 @@ then
 else
     echo "No files found older than $DAYS"
 fi
+
+for i in {0..6}
+do
+    touch -d 20240701 /home/ec2-user/old/$i.log
+    touch -d 20240701 /home/ec2-user/old/$i.java
+done
+
+
+echo " fileas again created in old folder
